@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META content="text/html; charset=UTF-8" http-equiv=content-type>
+<SCRIPT type=text/javascript src="js/jquery.min.js"></SCRIPT>
+<SCRIPT src="js/jquery.scrollable-1.0.2.js"></SCRIPT>
+<SCRIPT src="js/jquery.scrollable-1.0.2.min.js"></SCRIPT>
+<script type="text/javascript" src="js/title.js"></script>
+<LINK rel=stylesheet type=text/css href="css/master.css" media=screen>
+</HEAD>
+
+<BODY>
+<DIV id=container>
+<DIV id=content>
+<DIV id=static-sidebar><A href="index.html"><IMG class=logo src="images/logo.jpg"></A> 
+<UL id=nav>
+  <LI><A href="a.html">關於仁家</A> 
+  <LI><A href="b.html">仁家紀實</A>  
+  <LI><A href="c.html">六分鐘紀實影片</A>
+  <LI><A href="d.html">捐款與聯絡方式</A> 
+  <LI><A href="e.html">關於我們</A> 
+</LI></UL><UL id=nav>
+  <LI><p style="font-size:10px; line-height:14px;">Best Viewed with IE 6.0+ and 1024*768 screen.</p>
+</LI></UL></DIV>
+<DIV style="TEXT-ALIGN: right; WIDTH: 600px" id=home-content>
+<STYLE>DIV.scrollable {
+	POSITION: relative; MARGIN: 80px 0px 0px; WIDTH: 600px; HEIGHT: 425px; OVERFLOW: hidden
+}
+DIV.scrollable DIV.items {
+	POSITION: absolute; WIDTH: 20000em; CLEAR: both; TOP: 0px; LEFT: 0px
+}
+DIV.scrollable DIV.items DIV {
+	FLOAT: left
+}
+DIV.scrollable {
+	FLOAT: left
+}
+A.prev {
+	CURSOR: pointer
+}
+A.next {
+	CURSOR: pointer
+}
+A.prev:hover {
+	COLOR: #434343; CURSOR: pointer
+}
+A.next:hover {
+	COLOR: #434343; CURSOR: pointer
+}
+</STYLE>
+<DIV style="FLOAT: right !important" class=scrollable><!-- root element for the items -->
+<DIV class=items>
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index01.jpg"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">1 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+</DIV></DIV>
+
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index02.JPG"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">2 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+沒有人懂我孤獨世界裡的瘋狂孤獨。
+</DIV></DIV>
+
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index03.JPG"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">3 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+「 讓被拍攝的對象感受到你對他的愛，他才可能釋放自己的感情投入回應你。」 
+</DIV></DIV>
+
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index04.JPG"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">4 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+我還在夢中，做著年輕時的夢。
+</DIV></DIV>
+
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index05.jpg"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">5 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+我似乎在當中聞到了生命的味道。鹹鹹的，苦苦的，有點黏稠，偶有眼淚的味道。
+</DIV></DIV>
+
+<DIV style="WIDTH: 600px" class="post front-show"><IMG src="images/index06.jpg"><BR>
+<DIV style="FLOAT: right; FONT-SIZE: 12px">6 / 6</DIV>
+<DIV style="TEXT-ALIGN: left; WIDTH: 520px" class=floatLeft>
+如果這樣不順遂的人生是夢  那會不會醒來呢 ?
+</DIV></DIV>
+
+</DIV></DIV>
+
+<DIV class=clear></DIV><A class=prev>previous</A> / <A class=next>next</A> 
+<DIV class=clear></DIV><BR clear=all><!-- javascript coding -->
+<SCRIPT> 
+// execute your scripts when DOM is ready. this is a good habit 
+$(function() {         
+         
+    // initialize scrollable  
+    $("div.scrollable").scrollable({vertical:false, size: 1});     
+     
+}); 
+</SCRIPT>
+</DIV></DIV></DIV>
+
+</BODY>
+</HTML>

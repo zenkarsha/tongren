@@ -1,0 +1,168 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	OVERFLOW: scroll; HEIGHT: 100%
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+A {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+IMG {
+	VERTICAL-ALIGN: middle
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+
+.floatLeft {
+	FLOAT: left
+}
+.floatRight {
+	FLOAT: right
+}
+.clear {
+	CLEAR: both
+}
+.smpad {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.top {
+	VERTICAL-ALIGN: top
+}
+.small {
+	LINE-HEIGHT: 1.6em; FONT-SIZE: 10px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+
+
+BODY {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 10px Helvetica, Arial, sans-serif; COLOR: #818181; PADDING-TOP: 0px
+}
+#container {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 980px
+}
+#content {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: -20px; MARGIN-LEFT: 15px
+}
+#static-sidebar {
+	MARGIN: 80px 50px 0px 0px; FLOAT: left
+}
+.logo {
+	MARGIN-LEFT: 5px
+}
+#nav {
+	BORDER-BOTTOM: #d6d6d6 1px solid; MARGIN: 15px 0px 0px; WIDTH: 170px; FONT-SIZE: 10px; BORDER-TOP: #d6d6d6 1px solid
+}
+#nav A {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+#nav A:hover {
+	COLOR: #ffffff
+}
+#nav LI {
+	PADDING-BOTTOM: 2px; MARGIN: 6px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+#nav LI:hover {
+	BACKGROUND-COLOR: #545454
+}
+#nav LI:hover A {
+	BACKGROUND-COLOR: #545454; COLOR: #ffffff
+}
+#home-content {
+	FLOAT: left
+}
+.front-show H3 {
+	FONT-SIZE: 12px
+}
+.front-show IMG {
+	MARGIN: 0px 0px 10px; WIDTH: 600px; HEIGHT: 400px
+}
+.front-show A {
+	COLOR: #6b6b6b; TEXT-DECORATION: none
+}
+.front-show A:hover {
+	TEXT-DECORATION: underline
+}
+
+
+#normal-page P {
+	MARGIN-BOTTOM: 20px; line-height: 20px
+}
+#normal-page {
+	LINE-HEIGHT: 1.4em; MARGIN: 80px 0px 0px; WIDTH: 600px; FLOAT: left; COLOR: #474747; FONT-SIZE: 12px
+}
+#normal-page IMG {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 10px
+}
+#normal-page A {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+#normal-page A:HOVER {
+	COLOR: #474747; TEXT-DECORATION: underline
+}
+
+#single-photog {
+	MARGIN: 80px 0px 0px; WIDTH: 600px; FLOAT: left
+}
+#photog-card {
+	BORDER-BOTTOM: #d0d0d0 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#photog-card H2 {
+	COLOR: #434343; FONT-SIZE: 12px
+}
+#photog-card .details {
+	MARGIN-TOP: 2px; COLOR: #818181
+}
+#photog-card .details A {
+	COLOR: #818181; TEXT-DECORATION: none
+}
+#photog-card .details A:hover {
+	TEXT-DECORATION: underline
+}
+
+.style2 {font-size: 16px}
+.style4 {font-size: 12px}
+.style5 {font-size: 14px}
+
+
+#photographers-content {
+	MARGIN: 80px 0px 0px; WIDTH: 600px; FLOAT: left
+}
+#photog-main UL {
+	FLOAT: left; COLOR: #929292
+}
+#photog-main LI {
+	LINE-HEIGHT: 1.3em; MARGIN: 0px 20px 30px 0px; WIDTH: 280px; FLOAT: left
+}
+#photog-main IMG {
+	MARGIN: 0px 0px 5px; WIDTH: 280px; HEIGHT: 186px
+}
+#photog-main .name {
+	FONT-SIZE: 12px; FONT-WEIGHT: bold; color: #333333
+}
+#photog-main LI A {
+	COLOR: #929292; TEXT-DECORATION: none
+}
+#photog-main LI A.name {
+	COLOR: #434343
+}
+#photog-main LI A:hover {
+	TEXT-DECORATION: underline
+}
